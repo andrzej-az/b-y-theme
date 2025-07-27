@@ -1,0 +1,30 @@
+name: Publish Extension
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Login to GitHub
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and publish extension
+        run: |
+          npm install
+          npm run build
+          vsce login ${{ secrets.VSCODE_PUBLISHER }}
+          vsce publish
+        env:
+          VSCODE_PUBLISHER: ${{ secrets.VSCODE_PUBLISHER }}
+          VSCODE_TOKEN: ${{ secrets.VSCODE_TOKEN }}

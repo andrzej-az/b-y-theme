@@ -1,2 +1,5 @@
 .DS_Store
 codeSamples
+node_modules
+package-lock.json
+*.vsix
