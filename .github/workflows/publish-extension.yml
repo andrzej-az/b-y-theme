@@ -18,6 +18,8 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install vsce
+        run: npm install -g @vscode/vsce
 
       - name: Build and publish extension
         run: |
@@ -28,3 +30,4 @@ jobs:
         env:
           VSCODE_PUBLISHER: ${{ secrets.VSCODE_PUBLISHER }}
           VSCODE_TOKEN: ${{ secrets.VSCODE_TOKEN }}
+          VSCE_PAT: ${{ secrets.VSCODE_TOKEN }}
