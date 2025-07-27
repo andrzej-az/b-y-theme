@@ -1,4 +1,6 @@
-# B&Y - Black & Yellow theme
+# Blak-Yellow Theme
+
+This is a fork of the Sunset Theme, providing a colorful theme with dark background and yellow accents for Visual Studio Code.
 
 This theme provides color customization for all the main components of vscode:
 * `editor`
@@ -8,20 +10,30 @@ This theme provides color customization for all the main components of vscode:
 * `panels`
 * `etc ...`
 
-In the following screens, I am using [Material Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) icon themes
+Following screens use [Material Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) icon theme
 
-[Github repository](http://code.visualstudio.com/docs/languages/markdown)
+[Forked from Sunset Theme](https://github.com/Swiiip/sunset-theme-vscode.git)
+[GitHub repository](https://github.com/azakharchenko-msol/by-theme-vscode)
 
-All comments/improvements are welcome, `enjoy` !
+All comments/improvements are welcome !
 
 # Overview
-![alt](images/general.png)
+![alt](https://raw.githubusercontent.com/Swiiip/sunset-theme-vscode/master/images/general.png)
 
-# Demo
-![alt](images/demo.gif)
-
-# Sidebar
-![alt](images/sidebar.png)
+# Languages
+## Python
+![alt](https://raw.githubusercontent.com/Swiiip/sunset-theme-vscode/master/images/python.png)
+## C-Sharp
+![alt](https://raw.githubusercontent.com/Swiiip/sunset-theme-vscode/master/images/csharp.png)
+## Go
+![alt](https://raw.githubusercontent.com/Swiiip/sunset-theme-vscode/master/images/go.png)
+## Rust
+![alt](https://raw.githubusercontent.com/Swiiip/sunset-theme-vscode/master/images/rust.png)
+## Typescript
+![alt](https://raw.githubusercontent.com/Swiiip/sunset-theme-vscode/master/images/typescript.png)
 
 # Command palette
-![alt](images/ctrlp.png)
+![alt](https://raw.githubusercontent.com/Swiiip/sunset-theme-vscode/master/images/ctrlp.png)
+
+# Sidebar
+![alt](https://raw.githubusercontent.com/Swiiip/sunset-theme-vscode/master/images/sidebar.png)
