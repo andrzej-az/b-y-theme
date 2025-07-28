@@ -376,7 +376,7 @@
         {
             "scope": "keyword.control",
             "settings": {
-                "foreground": "#F7397D"
+                "foreground": "#9cdcfe"
             }
         },
         {
