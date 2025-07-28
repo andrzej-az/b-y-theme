@@ -25,7 +25,6 @@ jobs:
         run: |
           npm install
           npm run build
-          vsce login ${{ secrets.VSCODE_PUBLISHER }}
           vsce publish
         env:
           VSCODE_PUBLISHER: ${{ secrets.VSCODE_PUBLISHER }}
