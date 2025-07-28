@@ -1,4 +1,4 @@
-# Blak-Yellow Theme
+# Black-Yellow Theme
 
 This is a fork of the Sunset Theme, providing a colorful theme with dark background and yellow accents for Visual Studio Code.
 
@@ -37,3 +37,10 @@ All comments/improvements are welcome !
 
 # Sidebar
 ![alt](https://raw.githubusercontent.com/Swiiip/sunset-theme-vscode/master/images/sidebar.png)
+
+# Develop:
+ - edit ~/.vscode/extensions/andrzej-az.black-yellow-theme-1.0.0/themes/b-y-theme.json 
+ - reload vscode
+# Publish:
+ - Bump version in package.json
+ - push
