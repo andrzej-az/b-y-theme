@@ -17,26 +17,23 @@ Following screens use [Material Icons](https://marketplace.visualstudio.com/item
 
 All comments/improvements are welcome !
 
-# Overview
-![alt](https://raw.githubusercontent.com/Swiiip/sunset-theme-vscode/master/images/general.png)
+# Installation
+
+You can install this theme from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Andrzej-AZ.black-yellow-theme).
 
 # Languages
 ## Python
-![alt](https://raw.githubusercontent.com/Swiiip/sunset-theme-vscode/master/images/python.png)
+![alt](images/python.png)
 ## C-Sharp
-![alt](https://raw.githubusercontent.com/Swiiip/sunset-theme-vscode/master/images/csharp.png)
+![alt](images/csharp.png)
+## C++
+![alt](images/cpp.png)
 ## Go
-![alt](https://raw.githubusercontent.com/Swiiip/sunset-theme-vscode/master/images/go.png)
+![alt](images/go.png)
 ## Rust
-![alt](https://raw.githubusercontent.com/Swiiip/sunset-theme-vscode/master/images/rust.png)
+![alt](images/rust.png)
 ## Typescript
-![alt](https://raw.githubusercontent.com/Swiiip/sunset-theme-vscode/master/images/typescript.png)
-
-# Command palette
-![alt](https://raw.githubusercontent.com/Swiiip/sunset-theme-vscode/master/images/ctrlp.png)
-
-# Sidebar
-![alt](https://raw.githubusercontent.com/Swiiip/sunset-theme-vscode/master/images/sidebar.png)
+![alt](images/typescript.png)
 
 # Develop:
  - edit ~/.vscode/extensions/andrzej-az.black-yellow-theme-1.0.0/themes/b-y-theme.json 

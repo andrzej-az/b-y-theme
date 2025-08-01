@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="-5 -9 517 511" xmlns="http://www.w3.org/2000/svg">
-  <path d="M 74.2 414.078 C -15.152 318.728 -13.288 168.973 79.792 75.893 C 94.73 60.955 111.127 48.366 128.526 38.127 L 222.345 402.993 L 74.2 414.078 Z" style="stroke: rgb(12, 9, 13); stroke-width: 20; fill: rgb(255, 189, 20);"/>
-  <path d="M 123.179 41.367 C 203.128 -8.515 305.75 -7.563 384.833 44.224 L 426.121 233.438 L 387.485 391.535 L 217.125 408.363 C 217.125 408.363 162.278 343.523 140.862 256.038 C 118.034 162.783 123.179 41.367 123.179 41.367 Z" style="stroke: rgb(12, 9, 13); stroke-width: 20; fill: rgb(156, 220, 254);"/>
-  <path d="M 377.405 39.55 C 393.918 49.526 409.5 61.64 423.753 75.893 C 512.848 164.988 518.37 306.008 440.32 401.54 L 375.187 381.723 C 375.187 381.723 400.664 317.693 406.064 230.37 C 412.063 133.355 377.405 39.55 377.405 39.55 Z" style="stroke: rgb(12, 9, 13); stroke-width: 20; fill: rgb(249, 38, 114);"/>
-  <path d="M 79.792 419.854 C 63.925 403.987 50.708 386.473 40.143 367.862 C 67.839 310.558 160.868 391.202 259.356 391.207 C 360.167 391.213 435.384 312.564 461.019 371.965 C 450.871 389.05 438.449 405.158 423.753 419.854 C 328.77 514.836 174.774 514.836 79.792 419.854 Z" style="fill: rgb(156, 180, 110); stroke: rgb(12, 9, 13); stroke-width: 20;"/>
-  <path d="M 79.792 75.622 C 63.925 91.489 50.708 109.003 40.143 127.614 C 67.839 184.918 160.868 104.274 259.356 104.269 C 360.167 104.263 435.384 182.912 461.019 123.511 C 450.871 106.426 438.449 90.318 423.753 75.622 C 328.77 -19.36 174.774 -19.36 79.792 75.622 Z" style="fill: rgb(191, 146, 119); stroke: rgb(12, 9, 13); stroke-width: 20;"/>
+<svg width="{size}" height="{size}" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" classname="drop-shadow-lg">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <circle cx="60" cy="60" r="55" fill="#0c090d" strokewidth="1" opacity="0.8" stroke="#ffbd14" style="stroke-width: 2px;"/>
+  <path d="M35 35 L25 45 L25 75 L35 85" stroke="#ffbd14" strokewidth="6" strokelinecap="round" strokelinejoin="round" fill="none" filter="url(#glow)" style="stroke-width: 3px;"/>
+  <path d="M85 35 L95 45 L95 75 L85 85" stroke="#ffbd14" strokewidth="6" strokelinecap="round" strokelinejoin="round" fill="none" filter="url(#glow)" style="stroke-width: 3px;"/>
+  <text style="fill: rgb(255, 189, 22); font-family: Arial, sans-serif; font-size: 28px; stroke-linecap: round; stroke-linejoin: bevel; stroke-width: 2px; white-space: pre;" transform="matrix(1, 0, 0, 1, -4.740741, 15.259259)"><tspan x="56.296" y="34.37">B</tspan><tspan x="56.296" dy="1.2em">​</tspan><tspan>Y</tspan></text>
 </svg>
