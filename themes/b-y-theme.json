@@ -107,12 +107,6 @@
             }
         },
         {
-            "scope": "emphasis",
-            "settings": {
-                "fontStyle": "italic"
-            }
-        },
-        {
             "scope": "strong",
             "settings": {
                 "fontStyle": "bold"
@@ -127,8 +121,7 @@
         {
             "scope": "comment",
             "settings": {
-                "foreground": "#57a035",
-                "fontStyle": "italic"
+                "foreground": "#627027"
             }
         },
         {
@@ -433,7 +426,6 @@
             ],
             "settings": {
                 "foreground": "#FA9F50",
-                "fontStyle": "italic"
             }
         },
         {
@@ -446,7 +438,6 @@
             ],
             "settings": {
                 "foreground": "#9CDCFE",
-                "fontStyle": "italic"
             }
         },
         {
@@ -542,7 +533,6 @@
             ],
             "settings": {
                 "foreground": "#ffbd14",
-                "fontStyle": "italic"
             }
         },
         {
